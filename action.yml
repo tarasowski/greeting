@@ -1,0 +1,9 @@
+name: 'Greeting'
+description: 'Greet someone'
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
