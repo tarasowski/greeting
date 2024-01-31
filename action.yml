@@ -1,7 +1,10 @@
 name: 'Greeting'
 description: 'Greet someone'
 inputs:
-  name:
+  first_name:
+    description: 'Who to greet'
+    required: true
+  last_name:
     description: 'Who to greet'
     required: true
 runs:
